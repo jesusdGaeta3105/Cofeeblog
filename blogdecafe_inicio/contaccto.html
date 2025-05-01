@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeBlog</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+  
+    <header class="header">
+        <div class="contenedor ">
+            <div class="barra centrar-texto">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin ">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="about-as.html" class="navegacion__enlace">About us</a>
+                    <a href="courses.html" class="navegacion__enlace">Courses</a>
+                    <a href="contaccto.html" class="navegacion__enlace">contact</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="header__texto centrar-texto">
+            <h2 class="no-margin">Coffee blog with tips and courses</h2>
+            <p class="no-margin">Learn from the experts with the best lines and tips</p>
+        </div>
+    </header>
+
+    <main class="contenedor ">
+        <h3 class="centrar-texto">contact</h3>
+        <div class="contact-bg"></div>
+
+        <form class="form">
+            <div class="campo">
+                <label class="campo__label" for="Name">Name</label>
+                <input class="campo__field" type="text" placeholder="Your Name" id="Name">
+            </div>
+            
+            <div class="campo">
+                <label class="campo__label" for="Email">E-mail</label>
+                <input class="campo__field" type="email" placeholder=" Your E-mail" id="Email">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="Mensaje">Message</label>
+                <textarea  class="campo__field campo__field--texarea" id="mensaje"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Send" class="boton boton--primario">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer  ">
+        <div class=" contenedor barra centrar-texto ">
+            <h2 class=" logo logo__nombre logo__nombre--footer no-margin ">Coffee<span class="logo__bold ">Blog</span></h2>
+
+            <nav class="navegacion ">
+            <a href="about-as.html" class="navegacion__enlace">About us</a>
+            <a href="courses.html" class="navegacion__enlace">Courses</a>
+            <a href="contaccto.html" class="navegacion__enlace">contact</a>
+            </nav>
+        
+
+        </div>
+           
+       
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

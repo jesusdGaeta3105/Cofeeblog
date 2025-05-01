@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeBlog</title>
+    <meta name="description" content="pagina web de blog de cafe">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="prefetch" href="about-as.html" as="document">
+
+    <link rel="preload" href="css/normalize.css" as="styles">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css" as="styles">
+    <link rel="stylesheet" href="css/styles.css"> 
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+   
+    
+</head>
+<body>
+  
+    <header class="header">
+        <div class="contenedor ">
+            <div class="barra centrar-texto">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin ">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="about-as.html" class="navegacion__enlace">About us</a>
+                    <a href="courses.html" class="navegacion__enlace">Courses</a>
+                    <a href="contaccto.html" class="navegacion__enlace">contact</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="header__texto centrar-texto">
+            <h2 class="no-margin">Coffee blog with tips and courses</h2>
+            <p class="no-margin">Learn from the experts with the best lines and tips</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Our Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="blog1">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Types of Coffee Beans</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyprinting and typesetting industry. Lorem Ipsum has been the industry's standard 
+                    </p>
+                    <a href="into.html" class="boton boton--primario">Read Input</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="blog1">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Types of Coffee Beans</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyprinting and typesetting industry. Lorem Ipsum has been the industry's standard 
+                    </p>
+                    <a href="into.html" class="boton boton--primario">Read Input</a>
+                </div>
+            </article>
+
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="blog1">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Types of Coffee Beans</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyprinting and typesetting industry. Lorem Ipsum has been the industry's standard 
+                    </p>
+                    <a href="into.html" class="boton boton--primario">Read Input</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Our Courses and Workshops</h3>
+            
+           <ul class="cursos no-padding no-margin">
+                <li class="widget-curso entrada">
+                    <h4 class="no-margin">coffee extraction techniques</h4>
+
+                    <p class="widget-curso__label"> Price:
+                        <span class="widget-curso__info">Free</span>
+                    </p>
+
+                    <p class="widget-curso__label"> Space available:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+
+                    <a href="into.html" class="boton boton--secundario">More Information</a>
+                </li>  
+                <li class="widget-curso entrada ">
+                    <h4 class="no-margin">4 coffee recipes for beginners</h4>
+
+                    <p class="widget-curso__label"> Price:
+                        <span class="widget-curso__info">Free</span>
+                    </p>
+
+                    <p class="widget-curso__label"> Space available:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+
+                    <a href="into.html" class="boton boton--secundario">more information</a>
+                </li>
+
+            </ul>
+           
+            
+        </aside>
+    </div>
+
+    <footer class="footer  ">
+        <div class=" contenedor barra centrar-texto ">
+            <h2 class=" logo logo__nombre logo__nombre--footer no-margin ">Coffee<span class="logo__bold ">Blog</span></h2>
+
+            <nav class="navegacion ">
+            <a href="about-as.html" class="navegacion__enlace">About us</a>
+            <a href="courses.html" class="navegacion__enlace">Courses</a>
+            <a href="contaccto.html" class="navegacion__enlace">contact</a>
+            </nav>
+        
+
+        </div>
+           
+       
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
